@@ -8,26 +8,24 @@ This project provides a set of tools for performing object detection on traffic 
 - Saving inference results into video output
 
 ## 🗂️ Project Structure
-```bash
-├── data/ 
-│ ├── frames/ 
-│ ├── raw_videos/ 
-│ ├── traffic_dataset/ 
+├── data/
+│   ├── frames/
+│   ├── raw_videos/
+│   └── traffic_dataset/
 │
-├── inference/ 
-│ ├── run_live_inference.py 
-│ ├── run_video_inference.py 
+├── inference/
+│   ├── run_live_inference.py
+│   └── run_video_inference.py
 │
 ├── models/
-│ ├── traffic_od_model/ 
-│ ├── traffic_od_model.zip
+│   ├── traffic_od_model/
+│   └── traffic_od_model.zip
 │
 ├── notebooks/
 │
-├── scripts/
-│ ├── mark_lane.py
-│ ├── extract_frames.py
-```
+└── scripts/
+    ├── mark_lane.py
+    └── extract_frames.py
 
 ---
 
