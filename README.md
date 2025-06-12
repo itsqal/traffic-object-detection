@@ -7,6 +7,8 @@ This project provides a set of tools for performing object detection on traffic 
 - Running inference on both saved videos and live video feeds
 - Saving inference results into video output
 
+Inference video result also available from: [Traffic Analysis Video](https://drive.google.com/file/d/1bmjzF0hL5eJz8b5Enx1OEopDkxTalQKD/view?usp=drive_link)
+
 ## 🗂️ Project Structure
 ```
 ├── data/
