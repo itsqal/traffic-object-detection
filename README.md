@@ -9,12 +9,20 @@ This project provides a set of tools for performing object detection on traffic 
 
 ## 🗂️ Project Structure
 ```bash
-├── extract_frames.py # Extracts frames from a video file
-├── mark_lane.py # Tool for drawing polygon lane areas
-├── run_video_inference.py # Runs inference and saves annotated video
-├── run_live_inference.py # Runs inference on a video stream or camera feed
-├── yolov11s.pt # Trained YOLOv11s model
-└── utils/ # Utility functions (optional for helper scripts)
+├── data
+    ├── frames
+    ├── raw_videos
+    ├── traffic_dataset
+├── inference
+    ├── run_live_inference.py
+    ├── run_video_inference.py
+├── models
+    ├── traffic_od_model
+    ├── traffic_od_model.zip
+├── notebooks
+├── scripts
+    ├── mark_lane.py
+    ├── extract_frames.py
 ```
 
 ---
