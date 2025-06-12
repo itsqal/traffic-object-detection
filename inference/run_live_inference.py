@@ -376,7 +376,7 @@ class TrafficAnalyzer:
             
             self.draw_statistics(annotated_frame)
             
-            cv2.imshow('Enhanced Traffic Analysis', annotated_frame)
+            cv2.imshow('Traffic Analysis', annotated_frame)
             
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
