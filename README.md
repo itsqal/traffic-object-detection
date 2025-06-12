@@ -8,6 +8,7 @@ This project provides a set of tools for performing object detection on traffic 
 - Saving inference results into video output
 
 ## 🗂️ Project Structure
+```
 ├── data/
 │   ├── frames/
 │   ├── raw_videos/
@@ -26,7 +27,7 @@ This project provides a set of tools for performing object detection on traffic 
 └── scripts/
     ├── mark_lane.py
     └── extract_frames.py
-
+```
 ---
 
 ## 📄 File Descriptions
