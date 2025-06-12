@@ -1,0 +1,7 @@
+# Python virtual environments..
+venv/
+mlenv/
+.env
+__pycache__/
+
+data/frames/*.jpg

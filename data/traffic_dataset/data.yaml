@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bus', 'car', 'motorcycle', 'truck', 'van']
+
+roboflow:
+  workspace: faiqal
+  project: traffic-object-detection-omuwi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/faiqal/traffic-object-detection-omuwi/dataset/1
